@@ -13,3 +13,7 @@ Pese a que tiene aún mucho que mejorar, he decidido liberar el código por si a
 
 ## Tecnología usada
 El proyecto está sobre PHP usando Bootstrap para la creación de la web responsive y AngujarJS para la creación de tags que permitan la reutilización de código. La base de datos está montada sobre MySQL, y todo ello está soportado sobre un servidor Apache / MariaDB.
+
+## Más información
+La documentación entregada puede ser leída desde el siguiente enlace:
+[Documentación Proyecto Final](/doc/Documentacion%20Proyecto%20Final.pdf)

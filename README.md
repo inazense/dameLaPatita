@@ -4,6 +4,7 @@ Plataforma web animalista centrada en promover mediante anuncios los siguientes 
 2. Búsqueda de animales perdidos
 3. Publicar los animales domésticos encontrados en la calle
 <p align="center"><img src="/img/logoOriginal.png" /></p>
+
 ## Historia
 Esta web se presentó como proyecto final para el ciclo de grado superior de DAM (Desarrollo de Aplicaciones Multiplataforma) en Junio de 2016.
 La idea surgió como una plataforma para recopilar mediante un mapa interactivo los sitios donde han sido perdidos / encontrados diversos animales debido a la frustración de falta de plataformas y asociaciones que se dedicasen a ello en mi ciudad, Huesca.

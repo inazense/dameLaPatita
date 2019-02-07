@@ -3,7 +3,7 @@ Plataforma web animalista centrada en promover mediante anuncios los siguientes 
 1. Adopción de animales
 2. Búsqueda de animales perdidos
 3. Publicar los animales domésticos encontrados en la calle
-<p align="center"><img src="/img/logoOriginal.png" /></p>
+<p align="center"><img src="img/logoOriginal.png" /></p>
 
 ## Historia
 Esta web se presentó como proyecto final para el ciclo de grado superior de DAM (Desarrollo de Aplicaciones Multiplataforma) en Junio de 2016.
@@ -17,3 +17,10 @@ El proyecto está sobre PHP usando Bootstrap para la creación de la web respons
 ## Más información
 La documentación entregada puede ser leída desde el siguiente enlace:
 [Documentación Proyecto Final](/doc/Documentacion%20Proyecto%20Final.pdf)
+
+## Scripts
+En la carpeta de [scripts](/scripts) encontraréis todos los scripts necesarios para que funcione la solución con una conexión a base de datos.
+Se divide en dos secciones:
+- [backup](/scripts/backup) que se usará para realizar una copia periódica de la base de datos
+- [sql](/scripts/sql) que contiene los scripts que deberán cargarse en la base de datos, además de unos casos de prueba para testear la solución
+

@@ -21,15 +21,15 @@ Se divide en dos secciones:
 - [sql](scripts/sql) que contiene los scripts que deberán cargarse en la base de datos, además de unos casos de prueba para testear la solución
 
 ## Estructura de carpetas
-- __[css](scripts/css):__ Todos los estilos de la página web
-- __[fonts](scripts/fonts):__ Fuentes empleadas
-- __[img](scripts/img):__ Imágenes estáticas usadas en la web
-- __[js](scripts/js):__ Scripts javascript
-- __[lib](scripts/lib):__ Scripts PHP 
-- __[llamadasPHP](scripts/llamadasPHP):__ Funciones PHP concretas
-- __[paginas](scripts/paginas):__ Todas las páginas de la web
-- __[secciones](scripts/secciones):__ Porciones de la web reciclables
-- __[termsAndUses](scripts/termsAndUses):__ Terminos y condiciones para el uso de la página web
+- __[css](codigo/damelapatita/css):__ Todos los estilos de la página web
+- __[fonts](codigo/damelapatita/fonts):__ Fuentes empleadas
+- __[img](codigo/damelapatita/img):__ Imágenes estáticas usadas en la web
+- __[js](codigo/damelapatita/js):__ Scripts javascript
+- __[lib](codigo/damelapatita/lib):__ Scripts PHP 
+- __[llamadasPHP](codigo/damelapatita/llamadasPHP):__ Funciones PHP concretas
+- __[paginas](codigo/damelapatita/paginas):__ Todas las páginas de la web
+- __[secciones](codigo/damelapatita/secciones):__ Porciones de la web reciclables
+- __[termsAndUses](codigo/damelapatita/termsAndUses):__ Terminos y condiciones para el uso de la página web
 
 ## Más información
 La documentación entregada puede ser leída desde el siguiente enlace:

@@ -1,0 +1,1 @@
+mysqldump.exe --user=root --password=root  --host=localhost --port=3306 --result-file="F:\backup.%date:~10,4%%date:~7,2%%date:~4,2%.sql" --default-character-set=utf8 --single-transaction=TRUE --databases "proyecto_fin_dam"

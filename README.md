@@ -14,13 +14,26 @@ Pese a que tiene aún mucho que mejorar, he decidido liberar el código por si a
 ## Tecnología usada
 El proyecto está sobre PHP usando Bootstrap para la creación de la web responsive y AngujarJS para la creación de tags que permitan la reutilización de código. La base de datos está montada sobre MySQL, y todo ello está soportado sobre un servidor Apache / MariaDB.
 
-## Más información
-La documentación entregada puede ser leída desde el siguiente enlace:
-[Documentación Proyecto Final](doc/Documentacion%20Proyecto%20Final.pdf)
-
 ## Scripts
 En la carpeta de [scripts](scripts) encontraréis todos los scripts necesarios para que funcione la solución con una conexión a base de datos.
 Se divide en dos secciones:
 - [backup](scripts/backup) que se usará para realizar una copia periódica de la base de datos
 - [sql](scripts/sql) que contiene los scripts que deberán cargarse en la base de datos, además de unos casos de prueba para testear la solución
+
+## Estructura de carpetas
+- __[css](scripts/css):__ Todos los estilos de la página web
+- __[fonts](scripts/fonts):__ Fuentes empleadas
+- __[img](scripts/img):__ Imágenes estáticas usadas en la web
+- __[js](scripts/js):__ Scripts javascript
+- __[lib](scripts/lib):__ Scripts PHP 
+- __[llamadasPHP](scripts/llamadasPHP):__ Funciones PHP concretas
+- __[paginas](scripts/paginas):__ Todas las páginas de la web
+- __[secciones](scripts/secciones):__ Porciones de la web reciclables
+- __[termsAndUses](scripts/termsAndUses):__ Terminos y condiciones para el uso de la página web
+
+## Más información
+La documentación entregada puede ser leída desde el siguiente enlace:
+[Documentación Proyecto Final](doc/Documentacion%20Proyecto%20Final.pdf)
+
+
 

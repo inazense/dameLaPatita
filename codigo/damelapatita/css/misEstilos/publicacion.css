@@ -1,0 +1,9 @@
+/* Creo un padding para espaciar los elementos*/
+.espacio{
+    margin-bottom: 2%;
+}
+
+/* Alineo el botón de enviar a la derecha */
+.envio{
+    text-align: right;
+}

@@ -1,0 +1,112 @@
+/***********************************
+        CONTENEDOR CENTRAL
+***********************************/
+
+#centralContainer{
+    height: 15em;
+    width: 90%;
+}
+
+/***********************************
+                MAPA
+***********************************/
+
+#map{
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* Titulo */
+#centralContainer h4{
+    
+    background-color: #aa3939;
+    color: #fff;
+    padding: 1%;
+}
+
+/*******************************************
+    SECCIÓN ÚLTIMOS ANIMALES EN ADOPCIÓN
+*******************************************/
+
+/* Div contenedor central */
+.casilla{
+    float: left;
+    position: relative;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    background-color: #1e1e1e;
+    overflow: hidden;
+    
+    transition-duration: .3s;
+}
+
+/* Contenedor de la tabla */
+.content{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    padding: 5%;
+}
+
+/* Tabla para el texto */
+.table{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+/* Celda de la tabla (control de texto) */
+.table-cell{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Courgette', cursive;
+    font-size: 2em; /* 100% en dispositivos grandes */
+    text-align: center;
+    filter: alpha(opacity=0); /* IE8 y antecesores*/
+    -moz-opacity: 0;
+    opacity: 0;
+    transition-duration: .3s;
+    color: #fff;
+}
+
+/* Configuracion de la imagen de fondo */
+.fondo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+
+/* Imagen cargada para las pruebas */
+/* Eliminar en version final */
+.imagenFondo{
+    background-image: url('../../img/indiTest.jpg');
+}
+
+/* Comportamiento en hover */
+.casilla:hover .fondo{
+    
+    filter: alpha(opacity=50); /* IE8 y antecesores*/
+    -moz-opacity: .5;
+    opacity: .5;
+    transition-duration: .3s;
+}
+
+.casilla:hover .table-cell{
+    filter: alpha(opacity=1); /* IE8 y antecesores*/
+    -moz-opacity: 1;
+    opacity: 1;
+    transition-duration: .3s;
+}
+
+/* Texto para pantallas < 1024 */
+@media(max-width:1024px){
+    
+    .table-cell{
+        font-size: 100%;
+    }
+}

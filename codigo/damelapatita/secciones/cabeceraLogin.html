@@ -1,0 +1,60 @@
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+                <!-- Creo la abertura de menu para la versión movil -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a href="http://localhost/damelapatita/" class="navbar-brand" id="tituloApp">Dame la patita</a>
+            </div> <!-- Fin div navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-1">
+
+                <!-- Categorías principales -->
+                <ul class="nav navbar-nav">
+                    <li><a href="http://localhost/damelapatita/paginas/enAdopcion.php">En adopción</a></li>
+                    <li><a href="http://localhost/damelapatita/paginas/perdidos.php">Perdidos</a></li>
+                    <li><a href="http://localhost/damelapatita/paginas/encontrados.php">Encontrados</a></li>
+                    <li><a href="http://localhost/damelapatita/paginas/publicar.php">Publicar</a></li>
+                </ul>
+
+                <!-- Barra de búsqueda -->
+                <form action="http://localhost/damelapatita/paginas/resultadosBuscador.php" method="get" class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Buscar" name="buscador" id="buscador">
+                            <span class="input-group-btn">
+                                <button class="btn btn-danger" type="submit">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Perfil de usuario -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                            Mi zona <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="/damelapatita/paginas/misAnimales.php">Mis animales</a></li>
+                            <li><a href="/damelapatita/paginas/configuracion.php">Configuración</a></li>
+                            <li class="divider"></li>
+                            <li><a href="/damelapatita/llamadasPHP/finSesion.php">Cerrar sesión</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div> <!-- Fin div collapse navbar-collapse -->
+        </div> <!-- Fin div container fluid -->
+    </nav>
+</header>

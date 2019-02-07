@@ -1,0 +1,15 @@
+/* Título principal */
+#barrica h4{
+    background-color: #aa3939;
+    color: #fff;
+    padding: 1%;
+}
+
+/* Título de las categorías */
+.form-group h5{
+    font-weight: bold;
+}
+
+#passwordViejo{
+    margin-bottom: 1%;
+}

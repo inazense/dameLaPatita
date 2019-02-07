@@ -1,0 +1,22 @@
+.container{
+    text-align: center;
+}
+
+.contenedorRedirigido{
+    font-size: 1.5em;
+    margin: 10% auto;
+}
+
+header nav h4{
+    color: #fff;
+}
+
+p{
+    
+    font-family: 'Courgette', cursive;
+    vertical-align: middle;
+}
+
+img{
+    margin: 5% auto;
+}

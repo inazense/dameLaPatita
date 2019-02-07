@@ -1,0 +1,132 @@
+/**********************************
+     ESTILO DE LAS SECCIONES
+**********************************/
+
+/* Color menús superiores */
+.fondoSeccion{
+    background-color: #aa3939;
+    color: #fff;
+}
+
+/* Barras separadora */
+#nombre, #ubicacion, #altura, #peso{
+    border-bottom: #fff 1px solid;
+}
+
+#altura{
+    border-right: #fff 1px solid;
+}
+
+#caracteristicasContenido{
+    padding: 1%;
+    text-align: justify;
+}
+
+#contacto{
+    margin-top: 1%;
+    padding: 1%;
+}
+
+/**********************************
+         ICONOS // TEXTO
+**********************************/
+
+#contacto{
+    text-align: center;
+}
+
+/* Iconos redes sociales */
+#contactoSocial a{
+    padding-left: 5%;
+    font-size: 1.5em;
+    transition-duration: 0.1s;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Elimino el padding left al primer hijo */
+#contactoSocial a:nth-of-type(1){
+    padding-left: 0;
+}
+
+/* Color de iconos con hover */
+.icon-twitter:hover{
+    color: #4099ff;
+}
+
+.icon-facebook:hover{
+    color: #3b5998;
+}
+
+.icon-google-plus:hover{
+    color: #db5a3c;
+}
+
+#contactoAdopcion a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#contactoDenunciar a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#contactoAdopcion a:hover{
+    color: #c0909a;
+}
+
+#contactoDenunciar a:hover{
+    color: #ffcc00;
+}
+
+/* Añado una mini transición */
+#contactoSocial i:hover{
+    transition-duration: 0.1s;
+}
+
+#envioWhatsapp{
+    display: none;
+}
+
+#envioWhatsapp:hover{
+    color: #34af23;
+}
+
+/* Mostrar los elementos de contacto en 
+    dispositivos moviles (menores de 767) */
+@media(max-width:767px){
+    
+    #contactoAdopcion, #contactoSocial, #contactoDenunciar{
+        padding: 2% 1%;
+        
+        font-size: 1.2em;
+    }
+    
+    #envioWhatsapp{
+        display: inline;
+    }
+}
+
+
+/**********************************
+         FORMULARIO MODAL
+**********************************/
+
+/* Alineación de botones a la derecha */
+.footerBotones{
+    text-align: right;
+}
+
+#nombreAnunciante, #telefonoAnunciante #tituloTelefono, #tituloEscribirMail{
+    font-weight: bold;
+}
+
+#telefonoAnunciante .tlfnAnunciante{
+    padding-left: 2%;
+}
+
+#tituloEscribirMail{
+    border-top: solid 1px #000;
+    padding: 2%;
+}

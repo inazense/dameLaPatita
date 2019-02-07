@@ -1,0 +1,22 @@
+/**********************
+    POSICIONAMIENTOS
+**********************/
+
+/* Cadenas de texto*/
+form form-group label{
+    text-align: left;
+}
+
+/* Botón para enviar de nuevo el login */
+form #submitGroup{
+    text-align: right;
+    padding-right: 2%;
+}
+
+/* Título */
+#barrica h4{
+    
+    background-color: #aa3939;
+    color: #fff;
+    padding: 1%;
+}

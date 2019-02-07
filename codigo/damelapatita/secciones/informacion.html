@@ -1,0 +1,45 @@
+<!-- Logo aplicación -->
+<img src="/damelapatita/img/logoOriginal.png" alt="Dame la patita" class="img-responsive">
+
+<!-- Colección de botones -->
+<div class="btn-group-vertical">
+   
+    <!-- Sección Y esto... ¿qué es? -->
+    <button class="btn btn-danger" id="yesto-boton">
+        Y esto... ¿qué es?
+    </button>
+    <div id="yesto-cuerpo">
+        <p>Esta página ha sido pensada para buscar un hogar a aquellos animales que necesitan ser adoptados, y hacer que los que se perdieron vuelvan con sus familias.<br>Bajo ningún concepto se admite en este sitio la compraventa de animales</p>
+        <blockquote>No compres, adopta</blockquote>
+    </div>
+    
+    <!-- Sección Formularios de adopción -->
+    <button class="btn btn-danger" id="formularios-boton">
+        Formularios de adopción
+    </button>
+    <div id="formularios-cuerpo">
+        <p>Para facilitar las adopciones pongo a vuestra disposición un contrato de adopción estándar para ser rellenado por ambas partes.<br>Esta web no interviene en ninguna decisión, simplemente es una vía de contacto entre los intereados.<a href="http://127.0.0.1/img/contratoAdopcion.pdf" target="_blank">Descarga aquí el formulario</a></p>
+    </div>
+
+</div> <!-- Fin colección de botones -->
+
+<!-- Script para generar los toggles -->
+<script>
+    
+    // Ocultar todos los boton en la carga principal
+    $("#yesto-cuerpo").hide();
+    $("#formularios-cuerpo").hide();
+    
+    // Toggle sección Y esto... ¿qué es?
+    $("#yesto-boton").click(function () {
+        $("#yesto-cuerpo").slideToggle();
+        $("#formularios-cuerpo").hide();
+    });
+    
+    // Toggle sección Formularios de adopción
+    $("#formularios-boton").click(function () {
+        $("#formularios-cuerpo").slideToggle();
+        $("#yesto-cuerpo").hide();
+    });
+    
+</script>

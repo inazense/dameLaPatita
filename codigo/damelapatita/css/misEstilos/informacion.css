@@ -1,0 +1,135 @@
+/***********************************
+         SIDEBAR EXTRA
+***********************************/
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: #c9302c;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+/* Media para pantalla > 768px */
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+/***********************************
+    MENÚ DE NAVEGACION LATERAL
+***********************************/
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+/*    width: 250px;*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+/***********************************
+           LOGO PRINCIPAL
+***********************************/
+img{
+    width: 50%;
+    margin: 5% 25%;
+}
+
+/***********************************
+         BOTONES LATERALES
+***********************************/
+.btn-group-vertical{
+    width: 100%;
+}
+
+.btn-group-vertical .btn-danger{
+/*    width: 100%;*/
+}
+
+.btn-group-vertical .btn-danger:hover, .btn-group-vertical .btn-danger:focus{
+    background: rgba(217,83,79,0.8);
+}
+
+
+/***********************************
+         ENLACES
+***********************************/
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+    background-color: #000;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+/***********************************
+        INFORMACION LATERAL
+***********************************/
+#quiensoy-cuerpo, #yesto-cuerpo, #formularios-cuerpo{
+    line-height: 1.5;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: justify;
+    color: #fff;
+}
+
+#formularios-cuerpo a{
+    background-color: #c9302c;
+    text-decoration: underline;
+    color: #fff;
+}
+
+#formularios-cuerpo a:hover{
+    color: #E6E6E6;
+}

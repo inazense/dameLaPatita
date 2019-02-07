@@ -1,0 +1,45 @@
+/***********************************
+         TITULO PRINCIPAL
+***********************************/
+h4#patrocinadores{
+    background-color: #aa3939;
+    color: #fff;
+    padding: 1%;
+    text-align: center;
+}
+
+/***********************************
+       CONTENEDOR DE ANUNCIO
+***********************************/
+.anuncio{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 1%;
+    margin: 2% 0;
+}
+
+/***********************************
+       IMAGEN PUBLICITARIA
+***********************************/
+.anuncio img{
+    width: 100%;
+    margin: 0;
+    padding: 1%;
+}
+
+/***********************************
+          TEXTO ANUNCIANTE
+***********************************/
+.anuncio h5{
+    font-weight: bold;
+}
+
+/***********************************
+              ENLACES
+***********************************/
+a.linkPublicidad{
+    text-decoration: none;
+    color: #666666;
+}

@@ -1,0 +1,86 @@
+/***********************************
+  IMPORTAR FUENTE PARA EL TITULO
+***********************************/
+
+@font-face{
+    font-family: 'Courgette';
+    src: url('/damelapatita/fonts/Courgette-Regular.ttf');
+}
+
+/***********************************
+   ALTURA PARA TODO EL DOCUMENTO
+***********************************/
+body, html{
+    height: 100%;
+}
+
+/***********************************
+     ESPACIO DESPUES DE HEADER
+***********************************/
+body{
+    padding-top: 50px;
+}
+
+/***********************************
+       CONTENEDOR GENERAL
+***********************************/
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+/***********************************
+       CONTENIDO PRINCIPAL
+***********************************/
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Desabilito border-right en pantallas < 992px*/
+@media(max-width:991px){
+    #barrica{
+        border-right: none;
+    }
+}
+
+/***********************************
+       SECCION DE REGISTRO
+***********************************/
+
+/* Alineación de los form-groups a la derecha*/
+.diestra{
+    text-align: right;
+}
+
+textaea{
+    border:1px solid #999999;
+  width:100%;
+  margin:5px 0;
+  padding:3px;
+}
+
+.form-group #comprobarusuario .success{
+    background-image: url('/damelapatita/img/existente.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.form-group #comprobarusuario .error{
+    background-image: url('/damelapatita/img/error.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -16,11 +16,11 @@ El proyecto está sobre PHP usando Bootstrap para la creación de la web respons
 
 ## Más información
 La documentación entregada puede ser leída desde el siguiente enlace:
-[Documentación Proyecto Final](/doc/Documentacion%20Proyecto%20Final.pdf)
+[Documentación Proyecto Final](doc/Documentacion%20Proyecto%20Final.pdf)
 
 ## Scripts
-En la carpeta de [scripts](/scripts) encontraréis todos los scripts necesarios para que funcione la solución con una conexión a base de datos.
+En la carpeta de [scripts](scripts) encontraréis todos los scripts necesarios para que funcione la solución con una conexión a base de datos.
 Se divide en dos secciones:
-- [backup](/scripts/backup) que se usará para realizar una copia periódica de la base de datos
-- [sql](/scripts/sql) que contiene los scripts que deberán cargarse en la base de datos, además de unos casos de prueba para testear la solución
+- [backup](scripts/backup) que se usará para realizar una copia periódica de la base de datos
+- [sql](scripts/sql) que contiene los scripts que deberán cargarse en la base de datos, además de unos casos de prueba para testear la solución
 

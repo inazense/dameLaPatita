@@ -12,7 +12,7 @@ Estaba pensada para, en un futuro, crearse como un proyecto real que englobase u
 Pese a que tiene aún mucho que mejorar, he decidido liberar el código por si alguien desea tomar la idea y llevarla a cabo.
 
 ## Tecnología usada
-El proyecto está sobre PHP usando Bootstrap para la creación de la web responsive y AngujarJS para la creación de tags que permitan la reutilización de código. La base de datos está montada sobre MySQL, y todo ello está soportado sobre un servidor Apache / MariaDB.
+El proyecto está sobre PHP usando Bootstrap para la creación de la web responsive y AngularJS para la creación de tags que permitan la reutilización de código. La base de datos está montada sobre MySQL, y todo ello está soportado sobre un servidor Apache / MariaDB.
 
 ## Scripts
 En la carpeta de [scripts](scripts) encontraréis todos los scripts necesarios para que funcione la solución con una conexión a base de datos.
